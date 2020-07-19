@@ -74,19 +74,19 @@
                     axisLabelFontSizePixels: 12,
                     axisLabelFontFamily: 'Arial',
                     axisLabelPadding: 10,
-                    color: "#d8d8d8"
+                    color: "#393939"
                 },
                 yaxes: [{
                     position: "left",
                     max: 1070,
-                    color: "#d8d8d8",
+                    color: "#393939",
                     axisLabelUseCanvas: true,
                     axisLabelFontSizePixels: 12,
                     axisLabelFontFamily: 'Arial',
                     axisLabelPadding: 3
                 }, {
                     position: "right",
-                    clolor: "#d8d8d8",
+                    clolor: "#393939",
                     axisLabelUseCanvas: true,
                     axisLabelFontSizePixels: 12,
                     axisLabelFontFamily: ' Arial',

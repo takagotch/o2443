@@ -13,7 +13,7 @@
 				label: "My First dataset",
 				fill: false,
                 backgroundColor: '#303030',
-				borderColor: '#303030',
+				borderColor: '#fff',
 				data: [0, -20, 20, -20, 20, -20, 20]
             }]
 		},
@@ -40,6 +40,18 @@
 					ticks: {
 						autoSkip: false,
 						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}],
+				yAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
 					}
 				}]
 			}
@@ -85,6 +97,18 @@
 					ticks: {
 						autoSkip: false,
 						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}],
+				yAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
 					}
 				}]
 			}
@@ -129,6 +153,18 @@
 					ticks: {
 						autoSkip: false,
 						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}],
+				yAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
 					}
 				}]
 			}
@@ -175,6 +211,18 @@
 					ticks: {
 						autoSkip: false,
 						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}],
+				yAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
 					}
 				}]
 			}
@@ -217,8 +265,23 @@
 				}
 			},
 			scales: {
+				xAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}],
 				yAxes: [{
-					stacked: true
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
 				}]
 			},
 			plugins: {
@@ -260,17 +323,21 @@
 			},
 			scales: {
 				xAxes: [{
-					display: true,
-					scaleLabel: {
-						display: true,
-						labelString: 'Month'
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
 					}
 				}],
 				yAxes: [{
-					display: true,
-					scaleLabel: {
-						display: true,
-						labelString: 'Value'
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
 					}
 				}]
 			},

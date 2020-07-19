@@ -1,7 +1,30 @@
 (function ($) {
  "use strict";
 
+		/*----------------------------
+		 jQuery MeanMenu
+		------------------------------ */
+		jQuery('nav#dropdown').meanmenu();	
+		
+		
+		
+		$('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                     
+                 });
  
+		// Collapse ibox function
+			$('#sidebar ul li').on('click', function () {
+				var button = $(this).find('i.fa.indicator-mn');
+				button.toggleClass('fa-angle-left').toggleClass('fa-angle-right');
+				
+			});
+
+			
+		$('#sidebarCollapse').on('click', function () {
+			$("body").toggleClass("mini-navbar");
+			SmoothlyMenu();
+		});
 		
 		/*-----------------------------
 			Menu Stick
@@ -64,10 +87,7 @@
 			});
 			
 			
-			/*----------------------------
-		 jQuery MeanMenu
-		------------------------------ */
-		jQuery('nav#dropdown').meanmenu();	
+			
 		
 		// Collapse Chat function
 			$('.chat-icon-link').on('click', function () {

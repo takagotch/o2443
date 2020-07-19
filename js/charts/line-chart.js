@@ -40,14 +40,26 @@
 			},
 			scales: {
 				xAxes: [{
-					display: true,
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					},
 					scaleLabel: {
 						display: true,
 						labelString: 'Month'
 					}
 				}],
 				yAxes: [{
-					display: true,
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					},
 					scaleLabel: {
 						display: true,
 						labelString: 'Value'
@@ -130,6 +142,26 @@
 			title: {
 				display: true,
 				text:'Line Chart stepped',
+			},
+			scales: {
+				xAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}],
+				yAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}]
 			}
 		}
 	});
@@ -178,20 +210,21 @@
 			},
 			scales: {
 				xAxes: [{
-					display: true,
-					scaleLabel: {
-						display: true
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
 					}
 				}],
 				yAxes: [{
-					display: true,
-					scaleLabel: {
-						display: true,
-						labelString: 'Value'
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
 					},
 					ticks: {
-						suggestedMin: -10,
-						suggestedMax: 200,
+					  fontColor: "#fff", // this here
 					}
 				}]
 			}
@@ -247,17 +280,21 @@
 			},
 			scales: {
 				xAxes: [{
-					display: true,
-					scaleLabel: {
-						display: true,
-						labelString: 'Month'
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
 					}
 				}],
 				yAxes: [{
-					display: true,
-					scaleLabel: {
-						display: true,
-						labelString: 'Value'
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
 					}
 				}]
 			}
@@ -296,6 +333,26 @@
 				point: {
 					pointStyle: 'circle',
 				}
+			},
+			scales: {
+				xAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}],
+				yAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}]
 			}
 		}
 	});
@@ -332,6 +389,26 @@
 				point: {
 					pointStyle: 'rectRot',
 				}
+			},
+			scales: {
+				xAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}],
+				yAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}]
 			}
 		}
 	});
@@ -368,6 +445,26 @@
 				point: {
 					pointStyle: 'cross',
 				}
+			},
+			scales: {
+				xAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}],
+				yAxes: [{
+					ticks: {
+						autoSkip: false,
+						maxRotation: 0
+					},
+					ticks: {
+					  fontColor: "#fff", // this here
+					}
+				}]
 			}
 		}
 	});
